@@ -114,7 +114,7 @@ static std::vector<std::string> get_compiler_warnings()
         warnings.push_back("-Wno-unsafe-buffer-usage");
 
    // if(hip_has_flags({"-Werror", "-Wnrvo"}))
-   //     warnings.push_back("-Wno-nrvo");
+     warnings.push_back("-Wno-nrvo");
 
     return warnings;
 }
